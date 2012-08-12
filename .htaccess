@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /hnews/
+RewriteRule ^post/(.*)_(.*).html$ post.php?id=$1&slug=$2
+RewriteRule ^chuyenmuc/(.*)_(.*)$ category.php?id=$1&name=$2
+RewriteRule ^home/page-(.*)$ index.php?page=$1
+RewriteRule ^home$ index.php
+</IfModule>

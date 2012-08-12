@@ -1,0 +1,142 @@
+    #container {
+    	width: 99%;
+    	margin: auto;
+    }
+    #navigator {
+        height: 40px;
+        background: red;
+        margin: 2px;
+        padding: 2px;
+    }
+    #header {
+        height: 60px;
+        background: bisque;
+        margin: 2px;
+        padding: 2px;
+    }
+    #header h1 {
+        margin-top: 15px;
+        padding: 0px;
+    }
+    #sidebar {
+        border: 2px outset;
+        float: left;
+        margin-left: 2px;
+        margin-right: 10px;
+        width: 250px;
+        line-height: 18px;
+        margin-bottom: 2px;
+        text-align: left;
+    }
+    #sidebar .padding {
+        padding: 5x;
+    }
+    #content {
+        border: 2px outset;
+        margin-left: 270px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+        margin-top: 2px;
+        line-height: 18px;
+        text-align: left;
+        font-size: 14px;
+    }
+    #content .padding {
+        padding: 10px;
+        margin: 5px;
+    }
+    #footer {
+        height: 10px;
+        background: aquamarine;
+        clear: both;
+        border-top: 1px solid #efefef;
+        padding: 13px 25px;
+    }
+    #footer #navi2 {
+    	width: 350px;
+    	float: left;
+    	text-align: left;
+    }
+    #footer #powered {
+        float: right;
+    }
+    #footer a {
+    	text-decoration: none;
+    }
+    #footer a:hover {
+    	color: #db6d16;
+    }
+    body {
+    	font-family: Arial, Tahoma, Calibri, Sans-serif;
+    	font-size: 12px;
+        text-align: center;
+    }
+    .hidden {
+	   display: none;
+    }
+    html, body {
+    	margin: 0px;
+    	padding: 0px;
+    }
+    #login-form {
+        margin : 200px;
+        border: 7px outset #CC3333;
+    }
+    #login-form .title {
+        background: blue;
+        color: white;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    #login-form p {
+        margin-left: 2px;
+    }
+    #result2 {
+        margin-top: 5px;
+        background: red;
+        color: white;
+    }
+    #list4 { 
+        width:230px; 
+        font-family: Arial, Tahoma, Calibri, Times, serif; 
+        font-size:15px; 
+    }
+    #list4 ul { 
+        list-style: none; 
+    }
+    #list4 ul li { }
+    #list4 ul li a { 
+        display: block;
+        text-decoration: none; 
+        color: #000000; 
+        background-color: #FFFFFF; 
+        line-height: 30px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #CCCCCC;
+        padding-left: 10px;
+    }
+    #list4 a:hover { 
+        color: #FFFFFF; 
+        font-size: 18px;
+        background-image: url(../images/hover.png);
+        background-repeat: repeat-x; 
+    }
+    #list4 a:active {
+        display: none;
+    }
+    #list4 ul li a strong { 
+        margin-right: 10px; 
+    }
+    #list4 .submenu {
+        display: none;
+        font-size: 10px;
+        margin-left: 15px;
+    }
+    #list4 .submenu a {
+        font-size: 10px;
+    }
+    #list4 .submenu a:hover {
+        font-size: 13px;
+        color: yellow;
+    }
